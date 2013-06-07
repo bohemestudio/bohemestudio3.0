@@ -1,0 +1,23 @@
+1.0.6 Fix:
+==========
+- @functions.php: Rewrite, add some functions.
+- @functions.php: Image width/height cannot greater than 450px/600px.
+- @header.php: Blank header's description causing ugly layout.
+- @index.php @single.php @archive.php: Excluding post without image.
+- @footer.php: Some variables not passed.
+- @footer.php: Simplified page list in footer.
+- @timthumb.php: Temporary fix for cropped portrait/vertical image.
+- @theme panel: Some warnings messages.
+- @theme panel: Can use HTML code in form.
+
+
+1.0.5 Fix:
+==========
+- Changing category ID instead of category name in theme panel.
+- Cleaning up code.
+
+1.0.5 Addition:
+===============
+- Option to use PATH or URL in timthumb.
+- Ability to set image max. width and max. height from theme panel.
+- Ability to turn on/off rollover effect from theme panel.
