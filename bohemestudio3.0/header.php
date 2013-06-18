@@ -9,6 +9,7 @@
 
 
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title><?php bloginfo('name'); ?> | Photography website</title>
@@ -67,9 +68,17 @@
 
 	<body>
 
-		<!--[if lte IE 6]>
-			<div id="overlie" style="position:absolute; with:100%; height: 100%; background: #fff;">
-			<div id="ifie"  style="color: #000;" >Hi! It seems that you are using Internet Explorer to visit my website. That's no fun. <br/><br/>Internet Explorer isn't that nice to my site :( <br/>Tip: use <a href="https://www.google.com/chrome/" title="">Chrome</a> or <a href="http://www.mozilla.org/" title="Get Firefox">Firefox</a> instead. Thanks!<br/><br/><span><a href="#" onclick="hide('ifie'),hide('overlie')">Close</a></span></div>
+		<!--[if lte IE 8]>
+
+			<style>
+				#overlay-content a,
+				#overlay-content a:visited{
+					color: #D9561C;
+				}
+			</style>
+
+			<div id="overlay" style="position:fixed; width:100%; height: 100%; background: #fff; z-index: 1000; top: 0; left: 0;">
+			<div id="overlay-content"  style="color: #000; position: relative; top: 45%; text-align: center;" >Hi! It seems that you are using Internet Explorer to visit <b>bohemestudio.com</b> <br/><br/>Sorry about that but bohemestudio do not support Internet Explorer 8 and older versions :( <br/>Tip: use <a href="https://www.google.com/chrome/" title="">Chrome</a>, <a href="http://www.mozilla.org/" title="Get Firefox">Firefox</a>, Safari or a newer Internet explorer instead. <br/><br/> Sorry for any inconvenience.<span> <a href="mailto:contact@bohemestudio.com">contact@bohemestudio.com</a></span></div>
 			</div>
 		<![endif]-->
 

@@ -286,20 +286,20 @@ var loadModules = function(){
 
 
     //Common modules
-    console.log("LOADING... SOCIAL BAR MODULE");
+    //console.log("LOADING... SOCIAL BAR MODULE");
     SocialBarModule.init();
 
-    console.log("LOADING... LEFT NAVIGATION MODULE");
+    //console.log("LOADING... LEFT NAVIGATION MODULE");
     LeftNavigationModule.init();
 
-    console.log("LOADING... SHARE THIS MODULE");
+    //console.log("LOADING... SHARE THIS MODULE");
     ShareThisModule.init();
 
 
     //ROTATOR HOMEPAGE MODULE
     if( $('#rotator').length > 0 ){
 
-        console.log("LOADING... ROTATOR MODULE");
+        //console.log("LOADING... ROTATOR MODULE");
         RotatorModule.init();
 
     };
@@ -307,7 +307,7 @@ var loadModules = function(){
     //VIDEO NAVIGATION MODULE
     if( $('.video').length > 0 ){
 
-        console.log("LOADING... VIDEO NAVIGATION MODULE");
+        //console.log("LOADING... VIDEO NAVIGATION MODULE");
         VideoNavigationModule.init();
 
     };
@@ -315,7 +315,7 @@ var loadModules = function(){
     //SCROLL TO CATEGORY GALERY MODULE
     if( $('#category-photos').length > 0 ){
 
-        console.log("LOADING... SCROLL TO CATEGORY MODULE");
+        //console.log("LOADING... SCROLL TO CATEGORY MODULE");
         ScrollToCategoryModule.init();
 
     };
