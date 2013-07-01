@@ -613,6 +613,10 @@ div#bohemestudio-content{
 		background-position: 0px -50px !important;
 	}
 
+	div#social-bar-content div#twitter-box iframe{
+		width: 250px;
+	}
+
 /*FOOTER*/
 footer{
 	background-color: #324654;

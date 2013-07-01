@@ -74,34 +74,8 @@
 			<div id="social-bar-content">
 	       		<div class="fb-like-box" data-href="http://www.facebook.com/pages/Boheme-studio/240004409378155" data-width="350" data-height="400" data-show-faces="true" data-border-color="#D9561C" data-stream="false" data-header="false"></div>
 				<div id="twitter-box">
-					<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-					<script>
-						new TWTR.Widget({
-						  version: 2,
-						  type: 'profile',
-						  rpp: 10,
-						  interval: 30000,
-						  width: 250,
-			 			 height: 300,
-			 			 theme: {
-			  			  shell: {
-    						  background: '#db571f',
-    						  color: '#000000'
-  						  },
-   						 tweets: {
-   			  				 background: '#788880',
-    			   				color: '#ffffff',
-		          				 links: '#324654'
- 			  			 }
- 						 },
-						 features: {
- 			 			  scrollbar: true,
- 						   loop: false,
-			 			  live: false,
-			 			  behavior: 'all'
- 						 }
-						}).render().setUser('bohemestudio').start();
-					</script>
+					<a class="twitter-timeline"  href="https://twitter.com/bohemestudio"  data-widget-id="351632080481959937">Tweets by @bohemestudio</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>
 			</div>
 
