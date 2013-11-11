@@ -2,9 +2,8 @@
 			<div class="clear"></div>
 
 			<section id="follow">
-				<header>
-					<h4>Follow @bohemestudio!</h4>
-				</header>
+
+				<h4>Follow @bohemestudio on Facebook, Twitter or Instagram!</h4>
 
 				<nav>
 					<ul id="follow-links">
@@ -22,11 +21,6 @@
 						</li>
 					</ul>
 				</nav>
-
-				<aside>
-					<p>bohemestudioMOBILE and QR code</p>
-					<img src="images/bohemestudio_mobile_icon.png" alt="bohemestudio MOBILE" title="bohemestudio MOBILE"/>
-				</aside>
 
 				<div class="clear"></div>
 
@@ -61,15 +55,10 @@
 			</script>
 		<!-- facebook -->
 
-		<!-- share this -->
-		<a id="share-button" title="Share this">Share this</a>
-
 		<!-- the social bar -->
 		<section id="social-bar">
 	    	<div id="social-bar-button">
-	    		<header>
-	    			<h4>click to close!</h4>
-	    		</header>
+	    		<h4>click to close!</h4>
 	    	</div>
 			<div id="social-bar-content">
 	       		<div class="fb-like-box" data-href="http://www.facebook.com/pages/Boheme-studio/240004409378155" data-width="350" data-height="400" data-show-faces="true" data-border-color="#D9561C" data-stream="false" data-header="false"></div>
@@ -83,12 +72,13 @@
 		</section>
 		<!-- social@bohemestudio bar -->
 
+		<!-- share this -->
+		<a id="share-button" title="Share this">Share this</a>
+
 		<footer>
 
 			<div id="footer-separator">
-				<header>
-					<h5>Information, contact, links</h5>
-				</header>
+				<h5>Bohemestudio contact details and inspiration/learning websites</h5>
 			</div>
 
 			<section id="footer-content">
@@ -114,12 +104,16 @@
 			</section>
 		</footer>
 
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+
+			<!--
 			<script src="<?php bloginfo("template_directory") ?>/js/jQuery-v1.8.2.min.js" type="text/javascript"></script>
+			-->
+
 			<!-- Share this plugin -->
 			<script src="<?php bloginfo("template_directory") ?>/js/socialShare/socialShare.min.js" type="text/javascript"></script>
 
-			<script src="<?php bloginfo("template_directory") ?>/js/bohemestudio3.1.js" type="text/javascript"></script>
-
+			<script src="<?php bloginfo("template_directory") ?>/js/bohemestudio3.5.js" type="text/javascript"></script>
 
 			<script src="<?php bloginfo("template_directory") ?>/js/shadowbox-3.0.3/shadowbox.js" type="text/javascript"></script>
 			<script type="text/javascript">

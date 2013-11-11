@@ -15,14 +15,14 @@
 
 		<link rel="shortcut icon" href="http://www.bohemestudio.com/images/favicon.ico" />
 			<!-- STYLES SECTION -->
-			<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+
 			<link rel="stylesheet" type="text/css" href="<?php bloginfo("template_directory") ?>/css/reset.css" />
 
-		    <link rel='stylesheet' href='<?php bloginfo("template_directory") ?>/css/bohemestudio3.1-base.css' />
+		    <link rel='stylesheet' href='<?php bloginfo("template_directory") ?>/css/bohemestudio3.5-base.css' />
+		    <link rel='stylesheet' href='<?php bloginfo("template_directory") ?>/css/bohemestudio3.5-enhanced.css' media='all and (min-width: 800px)' />
 
-		    <link rel='stylesheet' href='<?php bloginfo("template_directory") ?>/css/bohemestudio3.1-enhanced.css' media='all and (min-width: 800px)' />
 		    <!--[if lt IE 9]>
-				<link rel='stylesheet' href='<?php bloginfo("template_directory") ?>/css/bohemestudio3.1-enhanced.css' />
+				<link rel='stylesheet' href='<?php bloginfo("template_directory") ?>/css/bohemestudio3.2-enhanced.css' />
 			<![endif]-->
 
 		    <!-- PLUGINS -->
@@ -47,21 +47,6 @@
 
 		<?php wp_head(); ?>
 
-			<!-- SCRIPTS SECTION
-
-			<script src="<?php bloginfo("template_directory") ?>/js/jQuery-v1.8.2.min.js" type="text/javascript"></script>
-			<script src="<?php bloginfo("template_directory") ?>/js/bohemestudio3.1.js" type="text/javascript"></script>
-
-
-			<script src="<?php bloginfo("template_directory") ?>/js/shadowbox-3.0.3/shadowbox.js" type="text/javascript"></script>
-			<script type="text/javascript">
-					Shadowbox.init({
-					    handleOversize: "drag",
-					    modal: false
-					});
-			</script>
-
-			 -->
 
 	</head>
 
@@ -88,7 +73,7 @@
 					<h1>
 						<span> <?php bloginfo('name'); ?> <?php bloginfo('description'); ?></span>
 						<a href="<?php echo get_option('home'); ?>">
-							<img src="../images/bohemestudio_logo.png" alt="Boheme studio" title="Boheme studio" />
+							<img src="images/logo_bohemestudio.png" alt="Boheme studio" title="Boheme studio" />
 						</a>
 					</h1>
 				</header>
@@ -124,31 +109,22 @@
 			</div>
 
 			<div id="main-separator">
-				<header>
-					<h2>Welcome to boheme studio!</h2>
-				</header>
+
+				<h2>Welcome to the bohemestudio Photo galleries!</h2>
+				<div id="gallery-navigation">
+					<nav class="wrapper">
+						<ul class="cats">
+	            			<?php wp_list_categories('title_li='); ?>
+	           			 </ul>
+					</nav>
+
+					<div class="clear"></div>
+				</div> <!-- end #gallery-navigation -->
 			</div>
 
 		</header>
 
 
 		<div id="bohemestudio-content">
-
-			<div id="gallery-navigation">
-
-				<nav>
-					<header>
-						<h2>
-							<span>Photo galleries</span>
-							<span id="category-icon">&nbsp;</span>
-						</h2>
-					</header>
-					<ul class="cats">
-            			<?php wp_list_categories('title_li='); ?>
-           			 </ul>
-				</nav>
-
-				<div class="clear"></div>
-			</div> <!-- end #gallery-navigation -->
 
 			<div id="content">

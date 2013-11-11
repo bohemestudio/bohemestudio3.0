@@ -3,17 +3,15 @@
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<section id="page">
-					<header>
-						<h2 class="page-title">
-							photo >
-							<?php
-								foreach((get_the_category()) as $category) {
-								    echo '<a href="#category-photos">' . $category->cat_name . '</a> ';
-								}
-							?>
-						</h2>
 
-					</header>
+					<h2 class="page-title">
+						photo >
+						<?php
+							foreach((get_the_category()) as $category) {
+							    echo '<a href="#category-photos">' . $category->cat_name . '</a> ';
+							}
+						?>
+					</h2>
 
 					<article id="main-photo">
 						<header>
@@ -46,13 +44,12 @@
 								<div class="nav-photo-right"><?php previous_post_link('%link', '&nbsp;', TRUE); ?></div>
 							</nav>
 			            </div>
-			           
+
 					</article> <!--main-photo-->
 
 					<section id="category-photos" class="see-all">
-						<header>
-							<h3>related photos > <?php the_category(', '); ?></h3>
-						</header>
+
+						<h3>related photos > <?php the_category(', '); ?></h3>
 
 						<ul>
 							<?php global $post;
@@ -80,7 +77,7 @@
 										}
 					                	?>
 
-								<a href="<?php the_permalink() ?>" rel="<? bloginfo('template_directory'); ?>/scripts/timthumb.php?src=<?php echo $image; ?>">				
+								<a href="<?php the_permalink() ?>" rel="<? bloginfo('template_directory'); ?>/scripts/timthumb.php?src=<?php echo $image; ?>">
 									<?php the_post_thumbnail('thumbnail'); ?>
 								</a>
 							</li>
