@@ -435,7 +435,7 @@ h4{
   #page .page-title,
   .archive-category h3,
   .about h3,
-  #category-photos header h3{
+  #category-photos h3{
     display: none;
   }
 
@@ -448,7 +448,8 @@ h4{
 
   #page .page-title a:hover,
   #category-photos h3 a:hover{
-    text-decoration: underline;
+    color: #d9561c;
+    text-decoration: none;
   }
 
   #main-photo{
@@ -702,3 +703,18 @@ footer{
 div.sb-message{font-size:12px;padding:10px;text-align:center;}
 div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
 /* ######################################### */
+
+
+
+/* ROTATOR ON TABLET ======================================================== */
+@media all and (min-width: 500px){
+  ul#photos,
+  ul#photos li a{
+    height: 250px;
+  }
+
+  ul#photos li a img{
+    position: relative;
+    top: -75px;
+  }
+}
