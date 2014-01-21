@@ -9,7 +9,7 @@ Template Name: About
 				<section id="page" class="about">
 					<header>
 						<h2><? the_title(); ?></h2>
-						<h3>WELCOME TO <a href="http://bohemestudio.com">bohemestudio.com</a> AND THANKS FOR YOUR VISIT ! :)</h3>
+						<h3>WELCOME TO <a href="http://bohemestudio.com">bohemestudio.com</a> AND THANKS FOR YOUR VISIT! :)</h3>
 					</header>
 
 					<section id="about-content">
@@ -19,7 +19,7 @@ Template Name: About
 								<h3>Mobile Boheme Studio:</h3>
 							</header>
 							<p>
-								You are visiting the mobile-friendly website. We are sorry but some sections are not available in this version.
+								You are visiting the responsive site. We are sorry but some sections and features are not available in this version.
 							</p>
 							<p>
 								Do not hesitate to visit bohemestudio again on your desktop to enjoy enhanced features.
@@ -31,10 +31,14 @@ Template Name: About
 								<h3>The Photographer:</h3>
 							</header>
 							<p>
-								I am Miguel ARG, web developer, graphic and interactive designer who loves photography.
+								I am Miguel ARG, Front-end developer, graphic and interactive designer who loves photography.
 							</p>
 							<p>
-								In this website my most relevant photo-work and graphic design. I have also included a section with the pics I share on Instagram, facebook and twitter as @bohemestudio and with some works on video editing.
+								Bohemestudio is a personal project completely developed and designed to show you some of my Front-end developer and UX/Graphic designer skills.
+							</p>
+							<p>
+								In this site I have used one of my hobbies, the photography, to build and web project and exhibit my most relevant photo-work. <br />
+								You can also follow me in social networks as @bohemestudio.
 							</p>
 						</article>
 
@@ -43,10 +47,13 @@ Template Name: About
 								<h3>Boheme Studio:</h3>
 							</header>
 							<p>
-								The website is an online portfolio, a vision of the world, a shoebox full of frozen moments. I hope you enjoy my photos around the world.
+								The website is an online portfolio, a vision of the world, a shoebox full of frozen moments.
 							</p>
 							<p>
-								You will find several photo galleries, so select one and if you like it then, please try the next one!.
+								The DEVELOPMENT page contains several galleries and links to some projects I've been working on (only available on the desktop version). <br />
+							</p>
+							<p>
+								You will find several photo galleries that I hope you enjoy, our world through my eyes. To find out more about my work as a Front-end developer, please visit other the sections.
 							</p>
 						</article>
 
@@ -55,10 +62,14 @@ Template Name: About
 								<h3>Contact:</h3>
 							</header>
 							<p>
-								Follow <strong>@bohemestudio</strong>! Share photos and be aware about the latest additions!
+								If you want to know more about me, you can like me on <a href="http://www.facebook.com/socialbohemestudio">Facebook</a> or follow me on <a href="https://twitter.com/bohemestudio">Twitter</a> or <a href="http://instagram.com/bohemestudio">Instagram</a>.
 							</p>
 							<p>
-								Contact us at: <a href="mailto:contact@bohemestudio.com">contact@bohemestudio.com</a>
+								Follow <strong>@bohemestudio</strong> to be aware of the latest additions! Remember that you can also share what you find interesting in your favorite social network.
+							</p>
+							<p>
+								I appreciate your feedback, comments or professional contact.
+								Do not hesitate to email me at: <a href="mailto:contact@bohemestudio.com">contact@bohemestudio.com</a>
 							</p>
 						</article>
 

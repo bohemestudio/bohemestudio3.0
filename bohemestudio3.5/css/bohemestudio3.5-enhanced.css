@@ -1,7 +1,8 @@
 /*
 Theme Name: Bohemestudio 3.0 (based on FOTOFOLIO wordpress theme)
-Description: Customized by MIGUEARG 2013
+Description: Customized by MIGUEARG 2014
 
+Version 3.5.1 - New responsive gallery navigation - January 2014
 Version 3.5 - New gallery navigation - November 2013
 
 Version 3.1.2 - Share this button
@@ -21,7 +22,9 @@ Author: Miguel A. Rodriguez
   margin: 0 auto;
 }
 
-
+.about #whats-new{
+  display: block;
+}
 
 
 /*HEADING TITLES*/
@@ -104,7 +107,8 @@ h1{
   }
 
 /* Fixed navigation only available in MOBILE */
-#mobile-navigation{
+#mobile-navigation,
+#mobile-navigation-trigger{
   display: none;
 }
 
@@ -136,20 +140,24 @@ h1{
 
   }
 
-  #gallery-navigation:hover{
-      opacity: 1;
+    #gallery-navigation:hover{
+        opacity: 1;
 
-      -webkit-transition: opacity 0.1s ease-in;
-      -moz-transition: opacity 0.1s ease-in;
-      -o-transition: opacity 0.1s ease-in;
-      transition: opacity 0.1s ease-in;
-  }
+        -webkit-transition: opacity 0.1s ease-in;
+        -moz-transition: opacity 0.1s ease-in;
+        -o-transition: opacity 0.1s ease-in;
+        transition: opacity 0.1s ease-in;
+    }
 
+
+/*GALLERY NAVIGATION*/
+#gallery-navigation{
+
+}
 
     /*GALLERY NAVIGATION ICONS*/
     #gallery-navigation ul{
       margin: 0 20px;
-      padding: 7px 0 0 0;
     }
 
     #gallery-navigation ul li{
@@ -165,6 +173,7 @@ h1{
     }
 
     #gallery-navigation ul li:hover,
+    #gallery-navigation ul li:focus,
     #gallery-navigation ul li.current-cat{
 
       background-color: #2C4051;
@@ -177,31 +186,8 @@ h1{
 
     #gallery-navigation ul li a,
     #gallery-navigation ul li a:visited{
-
-
       padding-top: 30px;
-      background: transparent url(../images/sprite_icon_category_nav_v5.png) no-repeat 0 0;
-      display: block;
-
-      text-indent: -999999px;
-      height: 0;
-
-      color: #d9561c;
-
     }
-
-    #gallery-navigation ul li.cat-item-6  a{ background-position: 0 0; }
-    #gallery-navigation ul li.cat-item-8  a{ background-position: -80px 0; }
-    #gallery-navigation ul li.cat-item-11 a{ background-position: -160px 0; }
-    #gallery-navigation ul li.cat-item-16 a{ background-position: -240px 0; }
-    #gallery-navigation ul li.cat-item-3  a{ background-position: -320px 0; }
-    #gallery-navigation ul li.cat-item-14 a{ background-position: -400px 0; }
-    #gallery-navigation ul li.cat-item-15 a{ background-position: -480px 0; }
-    #gallery-navigation ul li.cat-item-10 a{ background-position: -560px 0; }
-    #gallery-navigation ul li.cat-item-4  a{ background-position: -640px 0; }
-    #gallery-navigation ul li.cat-item-17 a{ background-position: -720px 0; }
-    #gallery-navigation ul li.cat-item-9  a{ background-position: -800px 0; }
-    #gallery-navigation ul li.cat-item-7  a{ background-position: -880px 0; }
 
 /*BOHEME STUDIO CONTENT ======================================================*/
 #bohemestudio-content{
@@ -502,6 +488,10 @@ h1{
       margin: 0px 35px;
     }
 
+    .about .ngg-galleryoverview h3{
+      font-size: 17px;
+    }
+
 
   /*FOLLOW*/
   #follow{
@@ -663,7 +653,7 @@ h1{
 /*FOOTER =====================================================================*/
 footer{
   background-color: #324654;
-  margin-top: 100px;
+  margin: 100px 0 0 0 !important;
 }
 
   footer #footer-separator,
@@ -709,5 +699,4 @@ footer{
   #footer-content aside{
     margin: 0px;
   }
-
 

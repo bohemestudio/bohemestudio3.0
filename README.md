@@ -3,7 +3,7 @@ bohemestudio3.0
 
 bohemestudio 3.0 Wordpress Theme
 
-LATEST VERSION 3.5 *New gallery navigation* / Nov 2013
+LATEST VERSION 3.5.1 *New responsive gallery navigation* / Jan 2014
 
 =======================
 http://bohemestudio.com

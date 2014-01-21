@@ -99,7 +99,7 @@
 				<div class="clear"></div>
 
 				<aside>
-					<p> <a href="mailto:contact@bohemestudio.com">contact me</a> | Design by miguearg 2013 </p>
+					<p> <a href="mailto:contact@bohemestudio.com">contact me</a> | Design by miguearg &copy; 2014 All rights reserved </p>
 				</aside>
 			</section>
 		</footer>

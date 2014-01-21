@@ -73,9 +73,11 @@
 					<h1>
 						<span> <?php bloginfo('name'); ?> <?php bloginfo('description'); ?></span>
 						<a href="<?php echo get_option('home'); ?>">
-							<img src="images/logo_bohemestudio.png" alt="Boheme studio" title="Boheme studio" />
+							<img src="../images/logo_bohemestudio.png" alt="Boheme studio" title="Boheme studio" />
 						</a>
 					</h1>
+
+					<a id="mobile-navigation-trigger" href="#">&nbsp;</a>
 				</header>
 			</div>
 
@@ -101,11 +103,31 @@
 			<div id="mobile-navigation">
 				<nav>
 		            <ul>
-		            	<li><a href="http://bohemestudio.com" title="Home page">home</a></li>
-		            	<li><a href="http://bohemestudio.com/see-all" title="See all page">see all</a></li>
-		            	<li><a href="http://bohemestudio.com/about" title="About page">about</a></li>
+		            	<li class="responsive-home"><a href="http://bohemestudio.com" title="Home page">home</a></li>
+		            	<li class="responsive-seeall"><a href="http://bohemestudio.com/see-all" title="See all page">see all</a></li>
+		            	<li class="responsive-about"><a href="http://bohemestudio.com/about" title="About page">about</a></li>
 		            </ul>
 				</nav>
+
+				<div id="gallery-navigation">
+					<nav class="wrapper">
+						<ul class="cats">
+							<li class="cat-item cat-item-6"><a href="http://bohemestudio.com/category/abstract" title="show pictures in category ABSTRACT">abstract</a></li>
+							<li class="cat-item cat-item-8"><a href="http://bohemestudio.com/category/architecture" title="show pictures in category ARCHITECTURE">architecture</a></li>
+							<li class="cat-item cat-item-11"><a href="http://bohemestudio.com/category/arts" title="show pictures in category ARTS">arts</a></li>
+							<li class="cat-item cat-item-16"><a href="http://bohemestudio.com/category/bw" title="show pictures in category BW">b&amp;w</a></li>
+							<li class="cat-item cat-item-3"><a href="http://bohemestudio.com/category/landscape" title="show pictures in category LANDSCAPE">landscape</a></li>
+							<li class="cat-item cat-item-14"><a href="http://bohemestudio.com/category/miscellaneous" title="show pictures in category MISCELLANEOUS">miscellaneous</a></li>
+							<li class="cat-item cat-item-15"><a href="http://bohemestudio.com/category/music" title="show pictures in category MUSIC">music</a></li>
+							<li class="cat-item cat-item-10"><a href="http://bohemestudio.com/category/natural" title="show pictures in category NATURAL">natural</a></li>
+							<li class="cat-item cat-item-4"><a href="http://bohemestudio.com/category/portrait" title="show pictures in category PORTRAIT">portrait</a></li>
+							<li class="cat-item cat-item-17"><a href="http://bohemestudio.com/category/silhouette" title="show pictures in category SILHOUETTE">silhouette</a></li>
+							<li class="cat-item cat-item-9"><a href="http://bohemestudio.com/category/skyline" title="show pictures in category SKYLINE">skyline</a></li>
+							<li class="cat-item cat-item-7"><a href="http://bohemestudio.com/category/urban" title="show pictures in category URBAN">urban</a></li>
+						</ul>
+					</nav>
+				</div>
+
 			</div>
 
 			<div id="main-separator">
